@@ -1,0 +1,106 @@
+body {
+font-family: "barlow";
+text-decoration: none;
+background-color: white;
+}
+
+.wrapper{
+box-sizing: border-box;
+max-width:100%;
+Margin: 2% 13%;
+}
+
+.logo {
+width: 100%;
+max-width: 1920px;
+height: auto;
+}
+
+.navigation {
+padding: 20px;
+background-color: rgb(226, 236, 251);
+}
+
+li {
+padding: 0 6%;
+border-left: 10% solid;
+border-color: black;
+text-decoration: none;
+display: inline;
+border-left-width: thin;
+border-left-color: black;
+border-left-style: solid;
+}
+
+li:first-child {
+border-left: none;
+}
+a:link {
+text-decoration: none;
+}
+
+a{
+color: black;
+font-weight: bold;
+}
+
+a:active {
+text-decoration: none;
+}
+
+form {
+color: black;
+padding: 2%;
+margin-left: 40%;
+}
+
+input {
+padding: 2%;
+background-color: rgb(226, 236, 251);
+font-weight: bold;
+}
+
+h1 {
+font-weight: bold;
+font-size: 35px;
+text-align: center;
+margin: 1% 1%;
+
+}
+.model{
+  width: 60%;
+  height: auto;
+  float: left;
+  margin: 2%;
+  margin-left: 0%;
+}
+
+.categories {
+width: 60%;
+height: auto;
+float: right;
+margin: 2%;
+margin-right: 0%;
+}
+
+footer {
+background-color: rgb(226, 236, 251);
+padding: 2%;
+border-left: 20% solid;
+font-weight: bold;
+font-size: 16px;
+clear: both;
+}
+
+p {
+font-size: 20px;
+margin: 1%;
+}
+h2{
+  text-align: center;
+}
+
+h4{
+  margin: 1%;
+  margin-top: 3%;
+}
